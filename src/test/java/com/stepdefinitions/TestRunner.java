@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src/test/resources",glue="com.stepdefinitions",dryRun = false, monochrome = true,
-plugin = {"pretty","html:target/cucumber-reports","json:target/cucumber-report"}
+plugin = {"pretty","html:target/cucumber-reports","json:target/cucumber1-report.json"}
 )
 public class TestRunner {
 
